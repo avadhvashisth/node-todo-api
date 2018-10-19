@@ -34,5 +34,5 @@ MongoClient.connect('mongodb://localhost:27017/TodoApp',
     console.log('Unable to find records');
   });
 
-  client.close();
+  //client.close();
 });
